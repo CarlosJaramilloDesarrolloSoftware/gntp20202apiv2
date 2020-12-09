@@ -1,6 +1,5 @@
-from flask import Flask, render_template, url_for, redirect
+from flask import request, Flask, render_template, url_for, redirect
 import requests
-from requests.api import request
 
 app = Flask(__name__)
 app.secret_key = "sdfg976dsfg"
